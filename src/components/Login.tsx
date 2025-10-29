@@ -1,36 +1,12 @@
 import React, { useState } from "react";
 import { TextField, Button } from "@mui/material";
+import { submit } from "../utils/submit";
+import { validation } from "../utils/validation";
 
 export const Login = () => {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [message, setMessage] = useState("");
+  const [username, setUsername] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
 
-  const handleLogin = async () => {
-    try {
-      const response = await fetch("http://localhost:90/users/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ username, password }),
-      });
-      if (response.status == 401) {
-        alert("Invalid username or password");
-      }
-      if (response.status == 200) {
-        alert(
-          "Login successful and jwt token will be set with expiration of 30 minutes"
-        );
-        const token = await response.text();
-        sessionStorage.setItem("jwt", token);
-        setPassword("");
-        setUsername("");
-      }
-    } catch (err) {
-      alert("Something went wrong");
-    }
-  };
   return (
     <>
       <TextField
@@ -53,8 +29,9 @@ export const Login = () => {
       <Button
         color="primary"
         variant="contained"
+        disabled={!validation(username, password)}
         fullWidth
-        onClick={() => handleLogin()}
+        onClick={() => submit(username, password, setUsername, setPassword)}
       >
         Login
       </Button>
