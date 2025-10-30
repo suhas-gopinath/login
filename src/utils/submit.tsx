@@ -15,14 +15,14 @@ export const submit = async (
 
     const data = await response.json();
 
-    if (!response.ok) {
-      alert(data.message);
-    } else {
+    if (response.ok) {
       const token = data.message;
       sessionStorage.setItem("jwt", token);
       alert("Login successful! JWT Token set and it expires in 30 minutes.");
       setUsername("");
       setPassword("");
+    } else {
+      alert(data.message);
     }
   } catch {
     alert("Something went wrong. Please try again later.");
