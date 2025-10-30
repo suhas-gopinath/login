@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Login } from "./components/Login";
 import "./index.css";
-import { BrowserRouter } from "react-router-dom";
 
 const App = () => (
   <div className="container">
