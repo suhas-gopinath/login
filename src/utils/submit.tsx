@@ -24,7 +24,7 @@ export const submit = async (
       setUsername("");
       setPassword("");
     }
-  } catch (error) {
+  } catch {
     alert("Something went wrong. Please try again later.");
   }
 };
