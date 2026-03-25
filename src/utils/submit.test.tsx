@@ -1,11 +1,23 @@
 import { submit } from "./submit";
+import * as containerStore from "container/store";
+
+jest.mock("container/store");
+
+const mockSetAccessToken = jest.fn((token: string) => ({
+  type: "auth/setAccessToken",
+  payload: token,
+}));
+
+(containerStore.setAccessToken as jest.Mock) = mockSetAccessToken;
 
 describe("submit()", () => {
   const mockSetUsername = jest.fn();
   const mockSetPassword = jest.fn();
+  const mockDispatch = jest.fn();
 
   beforeEach(() => {
     jest.clearAllMocks();
+    mockSetAccessToken.mockClear();
     jest.spyOn(globalThis, "alert").mockImplementation(() => {});
     jest.spyOn(Storage.prototype, "setItem");
   });
@@ -16,11 +28,19 @@ describe("submit()", () => {
       json: async () => ({ message: "jwt-token-123" }),
     } as Response);
 
-    await submit("user", "password", mockSetUsername, mockSetPassword);
+    await submit(
+      "user",
+      "password",
+      mockSetUsername,
+      mockSetPassword,
+      mockDispatch,
+    );
 
-    expect(Storage.prototype.setItem).toHaveBeenCalledWith(
-      "jwt",
-      "jwt-token-123",
+    expect(mockDispatch).toHaveBeenCalledWith(
+      expect.objectContaining({
+        type: "auth/setAccessToken",
+        payload: "jwt-token-123",
+      }),
     );
 
     expect(globalThis.alert).toHaveBeenCalledWith(
@@ -37,10 +57,16 @@ describe("submit()", () => {
       json: async () => ({ message: "Invalid credentials" }),
     } as Response);
 
-    await submit("user", "wrongpass", mockSetUsername, mockSetPassword);
+    await submit(
+      "user",
+      "wrongpass",
+      mockSetUsername,
+      mockSetPassword,
+      mockDispatch,
+    );
 
     expect(globalThis.alert).toHaveBeenCalledWith("Invalid credentials");
-    expect(Storage.prototype.setItem).not.toHaveBeenCalled();
+    expect(mockDispatch).not.toHaveBeenCalled();
     expect(mockSetUsername).not.toHaveBeenCalled();
     expect(mockSetPassword).not.toHaveBeenCalled();
   });
@@ -48,7 +74,13 @@ describe("submit()", () => {
   test("alerts generic error message when fetch throws", async () => {
     globalThis.fetch = jest.fn().mockRejectedValue(new Error("Network error"));
 
-    await submit("user", "password", mockSetUsername, mockSetPassword);
+    await submit(
+      "user",
+      "password",
+      mockSetUsername,
+      mockSetPassword,
+      mockDispatch,
+    );
 
     expect(globalThis.alert).toHaveBeenCalledWith(
       "Something went wrong. Please try again later.",

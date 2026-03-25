@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import type { AppDispatch } from "container/store";
 import { submit } from "../utils/submit";
 import { validation } from "../utils/validation";
 import "./Login.css";
 
 export const Login = () => {
+  const dispatch = useDispatch<AppDispatch>();
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
 
@@ -41,7 +44,9 @@ export const Login = () => {
         <button
           className="login-button"
           disabled={!validation(username, password)}
-          onClick={() => submit(username, password, setUsername, setPassword)}
+          onClick={() =>
+            submit(username, password, setUsername, setPassword, dispatch)
+          }
         >
           Login
         </button>

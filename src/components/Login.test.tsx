@@ -1,6 +1,8 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
+import { Provider } from "react-redux";
+import { configureStore } from "@reduxjs/toolkit";
 import { Login } from "./Login";
 import { submit } from "../utils/submit";
 import { validation } from "../utils/validation";
@@ -13,6 +15,12 @@ jest.mock("../utils/validation", () => ({
   validation: jest.fn(),
 }));
 
+const mockStore = configureStore({
+  reducer: {
+    auth: (state = {}) => state,
+  },
+});
+
 describe("Login component", () => {
   beforeEach(() => {
     jest.clearAllMocks();
@@ -21,7 +29,11 @@ describe("Login component", () => {
   test("disables login button when validation fails", () => {
     (validation as jest.Mock).mockReturnValue(false);
 
-    render(<Login />);
+    render(
+      <Provider store={mockStore}>
+        <Login />
+      </Provider>,
+    );
 
     const button = screen.getByRole("button", { name: /login/i });
     expect(button).toBeDisabled();
@@ -30,7 +42,11 @@ describe("Login component", () => {
   test("enables login button when validation passes", () => {
     (validation as jest.Mock).mockReturnValue(true);
 
-    render(<Login />);
+    render(
+      <Provider store={mockStore}>
+        <Login />
+      </Provider>,
+    );
 
     const button = screen.getByRole("button", { name: /login/i });
     expect(button).toBeEnabled();
@@ -39,7 +55,11 @@ describe("Login component", () => {
   test("calls submit with correct arguments when login button is clicked", () => {
     (validation as jest.Mock).mockReturnValue(true);
 
-    render(<Login />);
+    render(
+      <Provider store={mockStore}>
+        <Login />
+      </Provider>,
+    );
 
     fireEvent.change(screen.getByLabelText(/username/i), {
       target: { value: "john" },
@@ -56,7 +76,8 @@ describe("Login component", () => {
       "john",
       "Password@123",
       expect.any(Function),
-      expect.any(Function)
+      expect.any(Function),
+      expect.any(Function),
     );
   });
 });
