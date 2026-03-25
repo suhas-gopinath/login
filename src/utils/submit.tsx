@@ -2,7 +2,7 @@ export const submit = async (
   username: string,
   password: string,
   setUsername: (value: string) => void,
-  setPassword: (value: string) => void
+  setPassword: (value: string) => void,
 ) => {
   try {
     const response = await fetch("http://localhost:90/users/login", {
@@ -11,6 +11,7 @@ export const submit = async (
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ username, password }),
+      credentials: "include",
     });
 
     const data = await response.json();

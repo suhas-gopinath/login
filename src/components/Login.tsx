@@ -1,40 +1,51 @@
 import React, { useState } from "react";
-import { TextField, Button } from "@mui/material";
 import { submit } from "../utils/submit";
 import { validation } from "../utils/validation";
+import "./Login.css";
 
 export const Login = () => {
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
 
   return (
-    <>
-      <TextField
-        label="Username"
-        variant="outlined"
-        fullWidth
-        margin="normal"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-      />
-      <TextField
-        label="Password"
-        type="password"
-        variant="outlined"
-        fullWidth
-        margin="normal"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <Button
-        color="primary"
-        variant="contained"
-        disabled={!validation(username, password)}
-        fullWidth
-        onClick={() => submit(username, password, setUsername, setPassword)}
-      >
-        Login
-      </Button>
-    </>
+    <div className="login-container">
+      <div className="login-form">
+        <div className="form-group">
+          <label htmlFor="username" className="form-label">
+            Username
+          </label>
+          <input
+            id="username"
+            type="text"
+            className="form-input"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            placeholder="Enter your username"
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="password" className="form-label">
+            Password
+          </label>
+          <input
+            id="password"
+            type="password"
+            className="form-input"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder="Enter your password"
+          />
+        </div>
+
+        <button
+          className="login-button"
+          disabled={!validation(username, password)}
+          onClick={() => submit(username, password, setUsername, setPassword)}
+        >
+          Login
+        </button>
+      </div>
+    </div>
   );
 };

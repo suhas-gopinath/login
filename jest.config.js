@@ -3,4 +3,7 @@ module.exports = {
   testEnvironment: "jsdom",
   testMatch: ["**/?(*.)+(test|spec).ts?(x)"],
   setupFilesAfterEnv: ["<rootDir>/src/SetupTests.ts"],
+  moduleNameMapper: {
+    "\\.(css|less|scss|sass)$": "<rootDir>/__mocks__/styleMock.js",
+  },
 };
