@@ -49,7 +49,7 @@ module.exports = {
       name: "login",
       filename: "remoteEntry.js",
       remotes: {
-        container: "container@http://localhost:3000/remoteEntry.js",
+        container: "container@http://localhost:3003/remoteEntry.js",
       },
       exposes: {
         "./Login": "./src/components/Login",
@@ -64,6 +64,16 @@ module.exports = {
           singleton: true,
           requiredVersion: deps["react-dom"],
           eager: true,
+        },
+        "@reduxjs/toolkit": {
+          singleton: true,
+          requiredVersion: deps["@reduxjs/toolkit"],
+          eager: false,
+        },
+        "react-redux": {
+          singleton: true,
+          requiredVersion: deps["react-redux"],
+          eager: false,
         },
       },
     }),
