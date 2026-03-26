@@ -1,5 +1,3 @@
-import { setAccessToken, getDispatch } from "container/store";
-
 export const submit = async (
   username: string,
   password: string,
@@ -20,8 +18,6 @@ export const submit = async (
 
     if (response.ok) {
       const token = data.message;
-      const dispatch = getDispatch();
-      dispatch(setAccessToken(token));
 
       alert("Login successful! JWT Token set and it expires in 30 minutes.");
       setUsername("");

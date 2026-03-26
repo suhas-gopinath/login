@@ -65,16 +65,6 @@ module.exports = {
           requiredVersion: deps["react-dom"],
           eager: true,
         },
-        "@reduxjs/toolkit": {
-          singleton: true,
-          requiredVersion: deps["@reduxjs/toolkit"],
-          eager: true,
-        },
-        "react-redux": {
-          singleton: true,
-          requiredVersion: deps["react-redux"],
-          eager: true,
-        },
       },
     }),
     new HtmlWebPackPlugin({
