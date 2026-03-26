@@ -48,7 +48,6 @@ export const Login = () => {
             submit(username, password, setUsername, setPassword, setIsLoading)
           }
         >
-
           {isLoading ? <div className="loading-spinner"></div> : "Login"}
         </button>
       </div>

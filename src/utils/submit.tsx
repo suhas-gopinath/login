@@ -24,6 +24,7 @@ export const submit = async (
       alert("Login successful! JWT Token set and it expires in 30 minutes.");
       setUsername("");
       setPassword("");
+      window.location.href = "http://localhost:3003/verify";
     } else {
       alert(data.message);
     }
