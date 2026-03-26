@@ -19,6 +19,21 @@
         "messageId": null,
         "codeBlockId": null,
         "isActive": true
+      },
+      "b0aaaa": {
+        "user": "Suhas Gopinath",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1774560449,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {},
+        "hash": "3f0fd8f4",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
       }
     },
     "lines": {
@@ -26,53 +41,75 @@
         "chunkId": "98a703",
         "hash": "37fae63c",
         "encoded": "module.exports%20=%20%7B",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "98a703"
+        ]
       },
       "1": {
         "chunkId": "98a703",
         "hash": "7bf81e28",
         "encoded": "preset:%20%22ts-jest%22,",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "98a703"
+        ]
       },
       "2": {
         "chunkId": "98a703",
         "hash": "865f7c59",
         "encoded": "testEnvironment:%20%22jsdom%22,",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "98a703"
+        ]
       },
       "3": {
         "chunkId": "98a703",
         "hash": "d43767ff",
         "encoded": "testMatch:%20%5B%22**/?(*.)+(test%7Cspec).ts?(x)%22%5D,",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "98a703"
+        ]
       },
       "4": {
         "chunkId": "98a703",
         "hash": "5df767ee",
         "encoded": "setupFilesAfterEnv:%20%5B%22%3CrootDir%3E/src/SetupTests.ts%22%5D,",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "98a703"
+        ]
       },
       "5": {
-        "chunkId": "98a703",
+        "chunkId": "b0aaaa",
         "hash": "ba40e719",
         "encoded": "moduleNameMapper:%20%7B",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "98a703"
+        ]
       },
       "6": {
-        "chunkId": "98a703",
+        "chunkId": "b0aaaa",
         "hash": "cb82c160",
         "encoded": "%22%5C%5C.(css%7Cless%7Cscss%7Csass)$%22:%20%22%3CrootDir%3E/__mocks__/styleMock.js%22,",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "98a703"
+        ]
       },
       "7": {
-        "chunkId": "98a703",
-        "hash": "56b41f88",
+        "chunkId": "b0aaaa",
+        "hash": "2878b495",
+        "encoded": "%22%5Econtainer/useApi$%22:%20%22%3CrootDir%3E/__mocks__/containerUseApiMock.ts%22,",
+        "prevChunkIds": [
+          "98a703"
+        ]
+      },
+      "8": {
+        "chunkId": "b0aaaa",
+        "hash": "f3056d58",
         "encoded": "%7D,",
         "prevChunkIds": []
       },
-      "8": {
+      "9": {
         "chunkId": "98a703",
-        "hash": "af89cfeb",
+        "hash": "abc6348f",
         "encoded": "%7D;",
         "prevChunkIds": []
       }

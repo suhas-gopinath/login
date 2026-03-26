@@ -4,12 +4,16 @@ import "@testing-library/jest-dom";
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
 import { Login } from "./Login";
-import { submit } from "../utils/submit";
-import { validation } from "../utils/validation";
 
-jest.mock("../utils/submit", () => ({
-  submit: jest.fn(),
-}));
+import { validation } from "../utils/validation";
+import { useApi } from "container/useApi";
+
+
+
+
+const mockCallApi = jest.fn();
+
+jest.mock("container/useApi");
 
 jest.mock("../utils/validation", () => ({
   validation: jest.fn(),
@@ -24,6 +28,10 @@ const mockStore = configureStore({
 describe("Login component", () => {
   beforeEach(() => {
     jest.clearAllMocks();
+    (useApi as jest.Mock).mockReturnValue({
+      callApi: mockCallApi,
+      isLoading: false,
+    });
   });
 
   test("disables login button when validation fails", () => {
@@ -52,7 +60,8 @@ describe("Login component", () => {
     expect(button).toBeEnabled();
   });
 
-  test("calls submit with correct arguments when login button is clicked", () => {
+
+  test("calls useApi hook with correct arguments and callApi when login button is clicked", () => {
     (validation as jest.Mock).mockReturnValue(true);
 
     render(
@@ -71,13 +80,23 @@ describe("Login component", () => {
 
     fireEvent.click(screen.getByRole("button", { name: /login/i }));
 
-    expect(submit).toHaveBeenCalledTimes(1);
-    expect(submit).toHaveBeenCalledWith(
-      "john",
-      "Password@123",
+
+
+
+
+    expect(mockCallApi).toHaveBeenCalledTimes(1);
+    expect(useApi).toHaveBeenCalledWith(
+      "/login",
       expect.any(Function),
       expect.any(Function),
-      expect.any(Function),
+
+      expect.objectContaining({
+        method: "POST",
+        credentials: "include",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }),
     );
   });
 });

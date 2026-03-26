@@ -1,12 +1,32 @@
 import React, { useState } from "react";
-import { submit } from "../utils/submit";
+
+import { useApi } from "container/useApi";
 import { validation } from "../utils/validation";
 import "./Login.css";
 
 export const Login = () => {
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+
+  const handleSuccess = (message: string) => {
+    alert("Login successful! JWT Token set and it expires in 30 minutes.");
+    setUsername("");
+    setPassword("");
+    window.location.href = "http://localhost:3003/verify";
+  };
+
+  const handleError = (message: string) => {
+    alert(message);
+  };
+
+  const { callApi, isLoading } = useApi("/login", handleSuccess, handleError, {
+    method: "POST",
+    credentials: "include",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ username, password }),
+  });
 
   return (
     <div className="login-container">
@@ -41,12 +61,8 @@ export const Login = () => {
 
         <button
           className="login-button"
-
-
           disabled={!validation(username, password) || isLoading}
-          onClick={() =>
-            submit(username, password, setUsername, setPassword, setIsLoading)
-          }
+          onClick={callApi}
         >
           {isLoading ? <div className="loading-spinner"></div> : "Login"}
         </button>
