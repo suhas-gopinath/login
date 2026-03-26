@@ -1,12 +1,10 @@
-import type { AppDispatch } from "container/store";
-import { setAccessToken } from "container/store";
+import { setAccessToken, getDispatch } from "container/store";
 
 export const submit = async (
   username: string,
   password: string,
   setUsername: (value: string) => void,
   setPassword: (value: string) => void,
-  dispatch: AppDispatch,
 ) => {
   try {
     const response = await fetch("http://localhost:90/users/login", {
@@ -22,7 +20,9 @@ export const submit = async (
 
     if (response.ok) {
       const token = data.message;
+      const dispatch = getDispatch();
       dispatch(setAccessToken(token));
+
       alert("Login successful! JWT Token set and it expires in 30 minutes.");
       setUsername("");
       setPassword("");

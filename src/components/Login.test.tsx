@@ -77,7 +77,6 @@ describe("Login component", () => {
       "Password@123",
       expect.any(Function),
       expect.any(Function),
-      expect.any(Function),
     );
   });
 });

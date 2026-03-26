@@ -68,12 +68,12 @@ module.exports = {
         "@reduxjs/toolkit": {
           singleton: true,
           requiredVersion: deps["@reduxjs/toolkit"],
-          eager: false,
+          eager: true,
         },
         "react-redux": {
           singleton: true,
           requiredVersion: deps["react-redux"],
-          eager: false,
+          eager: true,
         },
       },
     }),
