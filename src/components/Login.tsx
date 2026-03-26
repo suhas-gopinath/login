@@ -6,6 +6,7 @@ import "./Login.css";
 export const Login = () => {
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   return (
     <div className="login-container">
@@ -40,10 +41,15 @@ export const Login = () => {
 
         <button
           className="login-button"
-          disabled={!validation(username, password)}
-          onClick={() => submit(username, password, setUsername, setPassword)}
+
+
+          disabled={!validation(username, password) || isLoading}
+          onClick={() =>
+            submit(username, password, setUsername, setPassword, setIsLoading)
+          }
         >
-          Login
+
+          {isLoading ? <div className="loading-spinner"></div> : "Login"}
         </button>
       </div>
     </div>

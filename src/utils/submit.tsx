@@ -3,7 +3,9 @@ export const submit = async (
   password: string,
   setUsername: (value: string) => void,
   setPassword: (value: string) => void,
+  setIsLoading: (value: boolean) => void,
 ) => {
+  setIsLoading(true);
   try {
     const response = await fetch("http://localhost:90/users/login", {
       method: "POST",
@@ -27,5 +29,7 @@ export const submit = async (
     }
   } catch {
     alert("Something went wrong. Please try again later.");
+  } finally {
+    setIsLoading(false);
   }
 };

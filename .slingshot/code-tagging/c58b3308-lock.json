@@ -19,6 +19,36 @@
         "messageId": null,
         "codeBlockId": null,
         "isActive": true
+      },
+      "53fa0b": {
+        "user": "Suhas Gopinath",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1774527878,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {},
+        "hash": "5539b747",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "72cf5a": {
+        "user": "Suhas Gopinath",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1774529530,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {},
+        "hash": "ef445747",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
       }
     },
     "lines": {
@@ -26,817 +56,1187 @@
         "chunkId": "b4626e",
         "hash": "35702512",
         "encoded": "/*%20Login%20Form%20Container%20*/",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "1": {
         "chunkId": "b4626e",
         "hash": "99601ca3",
         "encoded": ".login-container%20%7B",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "2": {
         "chunkId": "b4626e",
         "hash": "615d19a8",
         "encoded": "display:%20flex;",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "3": {
         "chunkId": "b4626e",
         "hash": "e7387939",
         "encoded": "flex-direction:%20column;",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "4": {
         "chunkId": "b4626e",
         "hash": "1c168d12",
         "encoded": "align-items:%20center;",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "5": {
         "chunkId": "b4626e",
         "hash": "07ab3e2a",
         "encoded": "justify-content:%20center;",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "6": {
         "chunkId": "b4626e",
         "hash": "93f7fe23",
         "encoded": "min-height:%20400px;",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "7": {
         "chunkId": "b4626e",
         "hash": "d48c84e7",
         "encoded": "padding:%202rem;",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "8": {
         "chunkId": "b4626e",
         "hash": "1c082ee4",
         "encoded": "%7D",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "10": {
         "chunkId": "b4626e",
         "hash": "6b059921",
         "encoded": "/*%20Login%20Form%20*/",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "11": {
         "chunkId": "b4626e",
         "hash": "a4b33fa4",
         "encoded": ".login-form%20%7B",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "12": {
         "chunkId": "b4626e",
         "hash": "d75222b9",
         "encoded": "background:%20#ffffff;",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "13": {
         "chunkId": "b4626e",
         "hash": "53c2bd13",
         "encoded": "border-radius:%2012px;",
-        "prevChunkIds": []
-      },
-      "14": {
-        "chunkId": "b4626e",
-        "hash": "cf0d93f8",
-        "encoded": "box-shadow:%200%204px%206px%20rgba(0,%200,%200,%200.1),%200%202px%204px%20rgba(0,%200,%200,%200.06);",
-        "prevChunkIds": []
-      },
-      "15": {
-        "chunkId": "b4626e",
-        "hash": "c37b157d",
-        "encoded": "padding:%202.5rem;",
-        "prevChunkIds": []
-      },
-      "16": {
-        "chunkId": "b4626e",
-        "hash": "c8dfdbc2",
-        "encoded": "width:%20100%25;",
-        "prevChunkIds": []
-      },
-      "17": {
-        "chunkId": "b4626e",
-        "hash": "a4eb0291",
-        "encoded": "max-width:%20400px;",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "18": {
         "chunkId": "b4626e",
-        "hash": "a2af23be",
-        "encoded": "transition:%20box-shadow%200.3s%20ease;",
-        "prevChunkIds": []
+        "hash": "07ebcac3",
+        "encoded": "padding:%202.5rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "19": {
         "chunkId": "b4626e",
-        "hash": "ee39c532",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "aa9760ec",
+        "encoded": "width:%20100%25;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "20": {
+        "chunkId": "b4626e",
+        "hash": "59df3341",
+        "encoded": "max-width:%20400px;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "21": {
         "chunkId": "b4626e",
-        "hash": "61f2ab90",
-        "encoded": ".login-form:hover%20%7B",
-        "prevChunkIds": []
+        "hash": "b1d6f34c",
+        "encoded": "transition:%20box-shadow%200.3s%20ease;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "22": {
         "chunkId": "b4626e",
-        "hash": "43ebbf7b",
-        "encoded": "box-shadow:%200%2010px%2015px%20rgba(0,%200,%200,%200.1),%200%204px%206px%20rgba(0,%200,%200,%200.05);",
-        "prevChunkIds": []
-      },
-      "23": {
-        "chunkId": "b4626e",
-        "hash": "7b3531ab",
+        "hash": "4c3814eb",
         "encoded": "%7D",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
-      "25": {
+      "24": {
         "chunkId": "b4626e",
-        "hash": "a0361f27",
-        "encoded": "/*%20Login%20Title%20*/",
-        "prevChunkIds": []
-      },
-      "26": {
-        "chunkId": "b4626e",
-        "hash": "7f2c7b93",
-        "encoded": ".login-title%20%7B",
-        "prevChunkIds": []
-      },
-      "27": {
-        "chunkId": "b4626e",
-        "hash": "818ee51a",
-        "encoded": "font-size:%201.875rem;",
-        "prevChunkIds": []
-      },
-      "28": {
-        "chunkId": "b4626e",
-        "hash": "46db7394",
-        "encoded": "font-weight:%20700;",
-        "prevChunkIds": []
+        "hash": "49992e2f",
+        "encoded": ".login-form:hover%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "29": {
         "chunkId": "b4626e",
-        "hash": "53afd2b5",
-        "encoded": "color:%20#1f2937;",
-        "prevChunkIds": []
-      },
-      "30": {
-        "chunkId": "b4626e",
-        "hash": "4189199c",
-        "encoded": "margin-bottom:%202rem;",
-        "prevChunkIds": []
+        "hash": "7721e417",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "31": {
         "chunkId": "b4626e",
-        "hash": "bfa98336",
-        "encoded": "text-align:%20center;",
-        "prevChunkIds": []
+        "hash": "1e450d9b",
+        "encoded": "/*%20Login%20Title%20*/",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "32": {
         "chunkId": "b4626e",
-        "hash": "a1c6a79d",
-        "encoded": "letter-spacing:%20-0.025em;",
-        "prevChunkIds": []
+        "hash": "9bc34420",
+        "encoded": ".login-title%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "33": {
         "chunkId": "b4626e",
-        "hash": "0e2c0edc",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "0d8dbcc8",
+        "encoded": "font-size:%201.875rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "34": {
+        "chunkId": "b4626e",
+        "hash": "8924a678",
+        "encoded": "font-weight:%20700;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "35": {
         "chunkId": "b4626e",
-        "hash": "2b1fc69e",
-        "encoded": "/*%20Form%20Group%20*/",
-        "prevChunkIds": []
+        "hash": "62495d3e",
+        "encoded": "color:%20#1f2937;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "36": {
         "chunkId": "b4626e",
-        "hash": "5cbd4952",
-        "encoded": ".form-group%20%7B",
-        "prevChunkIds": []
+        "hash": "12341525",
+        "encoded": "margin-bottom:%202rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "37": {
         "chunkId": "b4626e",
-        "hash": "22415cad",
-        "encoded": "margin-bottom:%201.5rem;",
-        "prevChunkIds": []
+        "hash": "6c95e761",
+        "encoded": "text-align:%20center;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "38": {
         "chunkId": "b4626e",
-        "hash": "1b754c76",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "72b6aa35",
+        "encoded": "letter-spacing:%20-0.025em;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
-      "40": {
+      "39": {
         "chunkId": "b4626e",
-        "hash": "4c01c5d9",
-        "encoded": "/*%20Labels%20*/",
-        "prevChunkIds": []
+        "hash": "4771cdac",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "41": {
         "chunkId": "b4626e",
-        "hash": "44ac1adf",
-        "encoded": ".form-label%20%7B",
-        "prevChunkIds": []
+        "hash": "ead89325",
+        "encoded": "/*%20Form%20Group%20*/",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "42": {
         "chunkId": "b4626e",
-        "hash": "49ff5cee",
-        "encoded": "display:%20block;",
-        "prevChunkIds": []
+        "hash": "5f3fb1c8",
+        "encoded": ".form-group%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "43": {
         "chunkId": "b4626e",
-        "hash": "c20d655f",
-        "encoded": "font-size:%200.875rem;",
-        "prevChunkIds": []
+        "hash": "c4e09001",
+        "encoded": "margin-bottom:%201.5rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "44": {
         "chunkId": "b4626e",
-        "hash": "e431a37f",
-        "encoded": "font-weight:%20600;",
-        "prevChunkIds": []
-      },
-      "45": {
-        "chunkId": "b4626e",
-        "hash": "07a95882",
-        "encoded": "color:%20#374151;",
-        "prevChunkIds": []
+        "hash": "5046e502",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "46": {
         "chunkId": "b4626e",
-        "hash": "588cfa3d",
-        "encoded": "margin-bottom:%200.5rem;",
-        "prevChunkIds": []
+        "hash": "1e93ccb7",
+        "encoded": "/*%20Labels%20*/",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "47": {
         "chunkId": "b4626e",
-        "hash": "ef381315",
-        "encoded": "letter-spacing:%200.025em;",
-        "prevChunkIds": []
+        "hash": "6370adf6",
+        "encoded": ".form-label%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "48": {
         "chunkId": "b4626e",
-        "hash": "d90811a0",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "4743de91",
+        "encoded": "display:%20block;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "49": {
+        "chunkId": "b4626e",
+        "hash": "5856ad12",
+        "encoded": "font-size:%200.875rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "50": {
         "chunkId": "b4626e",
-        "hash": "919e8deb",
-        "encoded": "/*%20Input%20Fields%20*/",
-        "prevChunkIds": []
+        "hash": "3f6f1c5e",
+        "encoded": "font-weight:%20600;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "51": {
         "chunkId": "b4626e",
-        "hash": "1189550a",
-        "encoded": ".form-input%20%7B",
-        "prevChunkIds": []
+        "hash": "871078cb",
+        "encoded": "color:%20#374151;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "52": {
         "chunkId": "b4626e",
-        "hash": "001948c3",
-        "encoded": "width:%20100%25;",
-        "prevChunkIds": []
+        "hash": "e819757d",
+        "encoded": "margin-bottom:%200.5rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "53": {
         "chunkId": "b4626e",
-        "hash": "bacc1f50",
-        "encoded": "padding:%200.75rem%201rem;",
-        "prevChunkIds": []
+        "hash": "0d759b15",
+        "encoded": "letter-spacing:%200.025em;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "54": {
         "chunkId": "b4626e",
-        "hash": "b0813901",
-        "encoded": "font-size:%201rem;",
-        "prevChunkIds": []
-      },
-      "55": {
-        "chunkId": "b4626e",
-        "hash": "2d94d202",
-        "encoded": "line-height:%201.5;",
-        "prevChunkIds": []
+        "hash": "5c9d24d4",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "56": {
         "chunkId": "b4626e",
-        "hash": "48a3c49e",
-        "encoded": "color:%20#1f2937;",
-        "prevChunkIds": []
+        "hash": "6a225ccf",
+        "encoded": "/*%20Input%20Fields%20*/",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "57": {
         "chunkId": "b4626e",
-        "hash": "9a4c2b6b",
-        "encoded": "background-color:%20#f9fafb;",
-        "prevChunkIds": []
+        "hash": "e44fb822",
+        "encoded": ".form-input%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "58": {
         "chunkId": "b4626e",
-        "hash": "22fa958d",
-        "encoded": "border:%202px%20solid%20#e5e7eb;",
-        "prevChunkIds": []
+        "hash": "3512f274",
+        "encoded": "width:%20100%25;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "59": {
         "chunkId": "b4626e",
-        "hash": "68c6fba5",
-        "encoded": "border-radius:%208px;",
-        "prevChunkIds": []
+        "hash": "e8786062",
+        "encoded": "padding:%200.75rem%201rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "60": {
         "chunkId": "b4626e",
-        "hash": "8f6452fe",
-        "encoded": "transition:%20all%200.2s%20ease;",
-        "prevChunkIds": []
+        "hash": "8cc8fc3e",
+        "encoded": "font-size:%201rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "61": {
         "chunkId": "b4626e",
-        "hash": "d20ec335",
-        "encoded": "box-sizing:%20border-box;",
-        "prevChunkIds": []
+        "hash": "41fe42c5",
+        "encoded": "line-height:%201.5;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "62": {
         "chunkId": "b4626e",
-        "hash": "646a8e84",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "9281d756",
+        "encoded": "color:%20#1f2937;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "63": {
+        "chunkId": "b4626e",
+        "hash": "0ac2117f",
+        "encoded": "background-color:%20#f9fafb;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "64": {
         "chunkId": "b4626e",
-        "hash": "c1a34210",
-        "encoded": ".form-input:focus%20%7B",
-        "prevChunkIds": []
+        "hash": "0c38e17c",
+        "encoded": "border:%202px%20solid%20#e5e7eb;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "65": {
         "chunkId": "b4626e",
-        "hash": "ec07b1ee",
-        "encoded": "outline:%20none;",
-        "prevChunkIds": []
+        "hash": "525a6394",
+        "encoded": "border-radius:%208px;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "66": {
         "chunkId": "b4626e",
-        "hash": "ebf16c88",
-        "encoded": "background-color:%20#ffffff;",
-        "prevChunkIds": []
+        "hash": "ab02449d",
+        "encoded": "transition:%20all%200.2s%20ease;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "67": {
         "chunkId": "b4626e",
-        "hash": "136099dc",
-        "encoded": "border-color:%20#3b82f6;",
-        "prevChunkIds": []
+        "hash": "76e8f3c5",
+        "encoded": "box-sizing:%20border-box;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "68": {
         "chunkId": "b4626e",
-        "hash": "b298e1dc",
-        "encoded": "box-shadow:%200%200%200%203px%20rgba(59,%20130,%20246,%200.1);",
-        "prevChunkIds": []
-      },
-      "69": {
-        "chunkId": "b4626e",
-        "hash": "9b4a30da",
+        "hash": "e4d82fa4",
         "encoded": "%7D",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "70": {
+        "chunkId": "b4626e",
+        "hash": "a6498660",
+        "encoded": ".form-input:focus%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "71": {
         "chunkId": "b4626e",
-        "hash": "f582e854",
-        "encoded": ".form-input::placeholder%20%7B",
-        "prevChunkIds": []
+        "hash": "fd5142c6",
+        "encoded": "outline:%20none;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "72": {
         "chunkId": "b4626e",
-        "hash": "3d76c497",
-        "encoded": "color:%20#9ca3af;",
-        "prevChunkIds": []
+        "hash": "1f1765b7",
+        "encoded": "background-color:%20#ffffff;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "73": {
         "chunkId": "b4626e",
-        "hash": "3654c6d8",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "7081bcfa",
+        "encoded": "border-color:%20#3b82f6;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "74": {
+        "chunkId": "b4626e",
+        "hash": "47c15a92",
+        "encoded": "box-shadow:%200%200%200%203px%20rgba(59,%20130,%20246,%200.1);",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "75": {
         "chunkId": "b4626e",
-        "hash": "e472dcb5",
-        "encoded": "/*%20Login%20Button%20*/",
-        "prevChunkIds": []
-      },
-      "76": {
-        "chunkId": "b4626e",
-        "hash": "1ea9e629",
-        "encoded": ".login-button%20%7B",
-        "prevChunkIds": []
+        "hash": "5250e31e",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "77": {
         "chunkId": "b4626e",
-        "hash": "994e4179",
-        "encoded": "width:%20100%25;",
-        "prevChunkIds": []
+        "hash": "0584f5bd",
+        "encoded": ".form-input::placeholder%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "78": {
         "chunkId": "b4626e",
-        "hash": "ffed2340",
-        "encoded": "padding:%200.875rem%201.5rem;",
-        "prevChunkIds": []
+        "hash": "40fc8055",
+        "encoded": "color:%20#9ca3af;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "79": {
         "chunkId": "b4626e",
-        "hash": "f4154e9e",
-        "encoded": "font-size:%201rem;",
-        "prevChunkIds": []
-      },
-      "80": {
-        "chunkId": "b4626e",
-        "hash": "1fb57a4f",
-        "encoded": "font-weight:%20600;",
-        "prevChunkIds": []
+        "hash": "8aac2494",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "81": {
-        "chunkId": "b4626e",
-        "hash": "9142b9fe",
-        "encoded": "color:%20#ffffff;",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "0ce8fff4",
+        "encoded": "/*%20Login%20Button%20*/",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "82": {
-        "chunkId": "b4626e",
-        "hash": "2a3d5b32",
-        "encoded": "background:%20linear-gradient(135deg,%20#3b82f6%200%25,%20#2563eb%20100%25);",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "5902ecac",
+        "encoded": ".login-button%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "83": {
-        "chunkId": "b4626e",
-        "hash": "15b23d75",
-        "encoded": "border:%20none;",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "ec906bec",
+        "encoded": "width:%20100%25;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "84": {
-        "chunkId": "b4626e",
-        "hash": "50670b62",
-        "encoded": "border-radius:%208px;",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "671d62ca",
+        "encoded": "padding:%200.875rem%201.5rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "85": {
-        "chunkId": "b4626e",
-        "hash": "06920471",
-        "encoded": "cursor:%20pointer;",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "db1bb52d",
+        "encoded": "font-size:%201rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "86": {
-        "chunkId": "b4626e",
-        "hash": "4a7b71a0",
-        "encoded": "transition:%20all%200.3s%20ease;",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "cb89a05d",
+        "encoded": "font-weight:%20600;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "87": {
-        "chunkId": "b4626e",
-        "hash": "ebde0427",
-        "encoded": "margin-top:%201rem;",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "e1459695",
+        "encoded": "color:%20#ffffff;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "88": {
-        "chunkId": "b4626e",
-        "hash": "c6d80b79",
-        "encoded": "letter-spacing:%200.025em;",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "27c0f0d9",
+        "encoded": "background:%20linear-gradient(135deg,%20#3b82f6%200%25,%20#2563eb%20100%25);",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "89": {
-        "chunkId": "b4626e",
-        "hash": "e1a04ed5",
-        "encoded": "box-shadow:%200%204px%206px%20rgba(59,%20130,%20246,%200.2);",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "ef47adba",
+        "encoded": "border:%20none;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "90": {
-        "chunkId": "b4626e",
-        "hash": "1a9d363f",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "a6ae6840",
+        "encoded": "border-radius:%208px;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "91": {
+        "chunkId": "72cf5a",
+        "hash": "35d507ec",
+        "encoded": "cursor:%20pointer;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "92": {
-        "chunkId": "b4626e",
-        "hash": "1bd56bfb",
-        "encoded": ".login-button:hover:not(:disabled)%20%7B",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "0ebe5c0a",
+        "encoded": "transition:%20all%200.3s%20ease;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "93": {
-        "chunkId": "b4626e",
-        "hash": "de39be57",
-        "encoded": "background:%20linear-gradient(135deg,%20#2563eb%200%25,%20#1d4ed8%20100%25);",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "1f4de292",
+        "encoded": "margin-top:%201rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "94": {
-        "chunkId": "b4626e",
-        "hash": "9ed5be13",
-        "encoded": "box-shadow:%200%206px%2012px%20rgba(59,%20130,%20246,%200.3);",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "f5bd8eb8",
+        "encoded": "letter-spacing:%200.025em;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "95": {
-        "chunkId": "b4626e",
-        "hash": "a40c14d0",
-        "encoded": "transform:%20translateY(-2px);",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "f2c42e9a",
+        "encoded": "box-shadow:%200%204px%206px%20rgba(59,%20130,%20246,%200.2);",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "96": {
-        "chunkId": "b4626e",
-        "hash": "eb084e75",
-        "encoded": "%7D",
+        "chunkId": "72cf5a",
+        "hash": "a31b4d15",
+        "encoded": "display:%20flex;",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "72cf5a",
+        "hash": "5f6aa4eb",
+        "encoded": "align-items:%20center;",
         "prevChunkIds": []
       },
       "98": {
-        "chunkId": "b4626e",
-        "hash": "5b82c968",
-        "encoded": ".login-button:active:not(:disabled)%20%7B",
+        "chunkId": "72cf5a",
+        "hash": "f9f3db96",
+        "encoded": "justify-content:%20center;",
         "prevChunkIds": []
       },
       "99": {
-        "chunkId": "b4626e",
-        "hash": "52a2c4ea",
-        "encoded": "transform:%20translateY(0);",
-        "prevChunkIds": []
-      },
-      "100": {
-        "chunkId": "b4626e",
-        "hash": "110fdfdc",
-        "encoded": "box-shadow:%200%202px%204px%20rgba(59,%20130,%20246,%200.2);",
-        "prevChunkIds": []
+        "chunkId": "72cf5a",
+        "hash": "22a07c3b",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "101": {
         "chunkId": "b4626e",
-        "hash": "6bf91891",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "9cfecc3a",
+        "encoded": ".login-button:hover:not(:disabled)%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "102": {
+        "chunkId": "b4626e",
+        "hash": "0ad37920",
+        "encoded": "background:%20linear-gradient(135deg,%20#2563eb%200%25,%20#1d4ed8%20100%25);",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "103": {
         "chunkId": "b4626e",
-        "hash": "52f3759c",
-        "encoded": ".login-button:disabled%20%7B",
-        "prevChunkIds": []
+        "hash": "ba78ada2",
+        "encoded": "box-shadow:%200%206px%2012px%20rgba(59,%20130,%20246,%200.3);",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "104": {
         "chunkId": "b4626e",
-        "hash": "78d7dce8",
-        "encoded": "background:%20linear-gradient(135deg,%20#9ca3af%200%25,%20#6b7280%20100%25);",
-        "prevChunkIds": []
+        "hash": "6751bdb8",
+        "encoded": "transform:%20translateY(-2px);",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "105": {
         "chunkId": "b4626e",
-        "hash": "3650e2fa",
-        "encoded": "cursor:%20not-allowed;",
-        "prevChunkIds": []
-      },
-      "106": {
-        "chunkId": "b4626e",
-        "hash": "721a734b",
-        "encoded": "box-shadow:%20none;",
-        "prevChunkIds": []
+        "hash": "c251d1dd",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "107": {
         "chunkId": "b4626e",
-        "hash": "7f905196",
-        "encoded": "opacity:%200.6;",
-        "prevChunkIds": []
+        "hash": "29dd4da7",
+        "encoded": ".login-button:active:not(:disabled)%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "108": {
         "chunkId": "b4626e",
-        "hash": "c146bd79",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "4485f5b0",
+        "encoded": "transform:%20translateY(0);",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "109": {
+        "chunkId": "b4626e",
+        "hash": "4e891a06",
+        "encoded": "box-shadow:%200%202px%204px%20rgba(59,%20130,%20246,%200.2);",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "110": {
         "chunkId": "b4626e",
-        "hash": "b909e30d",
-        "encoded": "/*%20Responsive%20Design%20*/",
-        "prevChunkIds": []
-      },
-      "111": {
-        "chunkId": "b4626e",
-        "hash": "bb1b332c",
-        "encoded": "@media%20(max-width:%20640px)%20%7B",
-        "prevChunkIds": []
+        "hash": "a4ba47af",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "112": {
         "chunkId": "b4626e",
-        "hash": "065b512a",
-        "encoded": ".login-form%20%7B",
-        "prevChunkIds": []
+        "hash": "dbe65773",
+        "encoded": ".login-button:disabled%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "113": {
         "chunkId": "b4626e",
-        "hash": "2aacbdd5",
-        "encoded": "padding:%202rem%201.5rem;",
-        "prevChunkIds": []
+        "hash": "bd11178f",
+        "encoded": "background:%20linear-gradient(135deg,%20#9ca3af%200%25,%20#6b7280%20100%25);",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "114": {
         "chunkId": "b4626e",
-        "hash": "a39e6725",
-        "encoded": "margin:%201rem;",
-        "prevChunkIds": []
+        "hash": "a0fc6127",
+        "encoded": "cursor:%20not-allowed;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "115": {
         "chunkId": "b4626e",
-        "hash": "a9314f3f",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "e74ef4c8",
+        "encoded": "box-shadow:%20none;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "116": {
+        "chunkId": "b4626e",
+        "hash": "afaf47eb",
+        "encoded": "opacity:%200.6;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "117": {
         "chunkId": "b4626e",
-        "hash": "9742acf9",
-        "encoded": ".login-title%20%7B",
-        "prevChunkIds": []
-      },
-      "118": {
-        "chunkId": "b4626e",
-        "hash": "90d6d022",
-        "encoded": "font-size:%201.5rem;",
-        "prevChunkIds": []
+        "hash": "056477bc",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "119": {
         "chunkId": "b4626e",
-        "hash": "beea77ea",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "0268effb",
+        "encoded": "/*%20Responsive%20Design%20*/",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "120": {
+        "chunkId": "b4626e",
+        "hash": "6dc7fb77",
+        "encoded": "@media%20(max-width:%20640px)%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "121": {
         "chunkId": "b4626e",
-        "hash": "14d0d7ab",
-        "encoded": ".form-input%20%7B",
-        "prevChunkIds": []
+        "hash": "5bfc15b6",
+        "encoded": ".login-form%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "122": {
         "chunkId": "b4626e",
-        "hash": "797682ed",
-        "encoded": "font-size:%200.9375rem;",
-        "prevChunkIds": []
+        "hash": "b12dc54c",
+        "encoded": "padding:%202rem%201.5rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "123": {
         "chunkId": "b4626e",
-        "hash": "2bf02615",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "b20b6d6e",
+        "encoded": "margin:%201rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
-      "125": {
+      "124": {
         "chunkId": "b4626e",
-        "hash": "74f81baa",
-        "encoded": ".login-button%20%7B",
-        "prevChunkIds": []
+        "hash": "331ddc52",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "126": {
         "chunkId": "b4626e",
-        "hash": "6ea3a850",
-        "encoded": "padding:%200.75rem%201.25rem;",
-        "prevChunkIds": []
+        "hash": "bcb2551a",
+        "encoded": ".login-title%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "127": {
         "chunkId": "b4626e",
-        "hash": "b945986d",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "3bd5782b",
+        "encoded": "font-size:%201.5rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "128": {
         "chunkId": "b4626e",
         "hash": "74f7c40c",
         "encoded": "%7D",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "130": {
         "chunkId": "b4626e",
-        "hash": "c95e9343",
-        "encoded": "/*%20Accessibility%20Improvements%20*/",
-        "prevChunkIds": []
+        "hash": "b51a2e8a",
+        "encoded": ".form-input%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "131": {
         "chunkId": "b4626e",
-        "hash": "64db1ce4",
-        "encoded": ".form-input:focus-visible%20%7B",
-        "prevChunkIds": []
+        "hash": "695ef3dd",
+        "encoded": "font-size:%200.9375rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "132": {
         "chunkId": "b4626e",
-        "hash": "738a6f4a",
-        "encoded": "outline:%202px%20solid%20#3b82f6;",
-        "prevChunkIds": []
-      },
-      "133": {
-        "chunkId": "b4626e",
-        "hash": "9c0e5023",
-        "encoded": "outline-offset:%202px;",
-        "prevChunkIds": []
+        "hash": "59e86bfa",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "134": {
         "chunkId": "b4626e",
-        "hash": "59c23335",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "9d9a8f29",
+        "encoded": ".login-button%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "135": {
+        "chunkId": "b4626e",
+        "hash": "e06afeb5",
+        "encoded": "padding:%200.75rem%201.25rem;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "136": {
         "chunkId": "b4626e",
-        "hash": "8b961889",
-        "encoded": ".login-button:focus-visible%20%7B",
-        "prevChunkIds": []
+        "hash": "dc65d51e",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "137": {
         "chunkId": "b4626e",
-        "hash": "ae266af3",
-        "encoded": "outline:%202px%20solid%20#3b82f6;",
-        "prevChunkIds": []
-      },
-      "138": {
-        "chunkId": "b4626e",
-        "hash": "63b21e6c",
-        "encoded": "outline-offset:%202px;",
-        "prevChunkIds": []
+        "hash": "1dc2599e",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "139": {
         "chunkId": "b4626e",
-        "hash": "8e724f24",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "f5cad48e",
+        "encoded": "/*%20Accessibility%20Improvements%20*/",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "140": {
+        "chunkId": "b4626e",
+        "hash": "715cba53",
+        "encoded": ".form-input:focus-visible%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "141": {
         "chunkId": "b4626e",
-        "hash": "5ca545f7",
-        "encoded": "/*%20Animation%20for%20form%20appearance%20*/",
-        "prevChunkIds": []
+        "hash": "e2b3f6c7",
+        "encoded": "outline:%202px%20solid%20#3b82f6;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "142": {
         "chunkId": "b4626e",
-        "hash": "7a0233cd",
-        "encoded": "@keyframes%20fadeInUp%20%7B",
-        "prevChunkIds": []
+        "hash": "e3d575ef",
+        "encoded": "outline-offset:%202px;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "143": {
         "chunkId": "b4626e",
-        "hash": "fe08ae9b",
-        "encoded": "from%20%7B",
-        "prevChunkIds": []
-      },
-      "144": {
-        "chunkId": "b4626e",
-        "hash": "a372bea2",
-        "encoded": "opacity:%200;",
-        "prevChunkIds": []
+        "hash": "52c5d6be",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "145": {
         "chunkId": "b4626e",
-        "hash": "9ee7527f",
-        "encoded": "transform:%20translateY(20px);",
-        "prevChunkIds": []
+        "hash": "a23fce91",
+        "encoded": ".login-button:focus-visible%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "146": {
         "chunkId": "b4626e",
-        "hash": "2d25e64b",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "cce105a7",
+        "encoded": "outline:%202px%20solid%20#3b82f6;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "147": {
         "chunkId": "b4626e",
-        "hash": "88f86027",
-        "encoded": "to%20%7B",
-        "prevChunkIds": []
+        "hash": "90e7ffed",
+        "encoded": "outline-offset:%202px;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "148": {
         "chunkId": "b4626e",
-        "hash": "d3f496bd",
-        "encoded": "opacity:%201;",
-        "prevChunkIds": []
-      },
-      "149": {
-        "chunkId": "b4626e",
-        "hash": "dd91c76d",
-        "encoded": "transform:%20translateY(0);",
-        "prevChunkIds": []
+        "hash": "a6adb000",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "150": {
         "chunkId": "b4626e",
-        "hash": "e584d451",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "6f76b244",
+        "encoded": "/*%20Animation%20for%20form%20appearance%20*/",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "151": {
         "chunkId": "b4626e",
-        "hash": "5a35ac4c",
-        "encoded": "%7D",
-        "prevChunkIds": []
+        "hash": "eb1ed5e2",
+        "encoded": "@keyframes%20fadeInUp%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "152": {
+        "chunkId": "b4626e",
+        "hash": "48ac2191",
+        "encoded": "from%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "153": {
         "chunkId": "b4626e",
-        "hash": "796dcec2",
-        "encoded": ".login-form%20%7B",
-        "prevChunkIds": []
+        "hash": "b082cdf4",
+        "encoded": "opacity:%200;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "154": {
         "chunkId": "b4626e",
-        "hash": "8a16ec27",
-        "encoded": "animation:%20fadeInUp%200.5s%20ease-out;",
-        "prevChunkIds": []
+        "hash": "52370e99",
+        "encoded": "transform:%20translateY(20px);",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       },
       "155": {
         "chunkId": "b4626e",
         "hash": "0b3cc65a",
         "encoded": "%7D",
-        "prevChunkIds": []
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "156": {
+        "chunkId": "b4626e",
+        "hash": "29b80ac1",
+        "encoded": "to%20%7B",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "157": {
+        "chunkId": "b4626e",
+        "hash": "e9b05dce",
+        "encoded": "opacity:%201;",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "159": {
+        "chunkId": "b4626e",
+        "hash": "53cff946",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "160": {
+        "chunkId": "53fa0b",
+        "hash": "10c4a851",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "162": {
+        "chunkId": "53fa0b",
+        "hash": "15be0808",
+        "encoded": ".login-form%20%7B",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "163": {
+        "chunkId": "53fa0b",
+        "hash": "bee5faf8",
+        "encoded": "animation:%20fadeInUp%200.5s%20ease-out;",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "164": {
+        "chunkId": "53fa0b",
+        "hash": "3e35702d",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "166": {
+        "chunkId": "53fa0b",
+        "hash": "f274fc0f",
+        "encoded": "/*%20Loading%20Spinner%20*/",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "167": {
+        "chunkId": "53fa0b",
+        "hash": "156b4084",
+        "encoded": ".loading-spinner%20%7B",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "176": {
+        "chunkId": "53fa0b",
+        "hash": "0a6541c6",
+        "encoded": "border-radius:%2050%25;",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "177": {
+        "chunkId": "53fa0b",
+        "hash": "1e890d75",
+        "encoded": "animation:%20spin%201s%20linear%20infinite;",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "178": {
+        "chunkId": "53fa0b",
+        "hash": "e0563286",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "180": {
+        "chunkId": "53fa0b",
+        "hash": "104b40fa",
+        "encoded": "@keyframes%20spin%20%7B",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "181": {
+        "chunkId": "53fa0b",
+        "hash": "364d9e9f",
+        "encoded": "from%20%7B",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "182": {
+        "chunkId": "53fa0b",
+        "hash": "d90133cf",
+        "encoded": "transform:%20rotate(0deg);",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "183": {
+        "chunkId": "53fa0b",
+        "hash": "98787a28",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "184": {
+        "chunkId": "53fa0b",
+        "hash": "ea181a70",
+        "encoded": "to%20%7B",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "185": {
+        "chunkId": "53fa0b",
+        "hash": "ac7144a0",
+        "encoded": "transform:%20rotate(360deg);",
+        "prevChunkIds": [
+          "53fa0b"
+        ]
+      },
+      "186": {
+        "chunkId": "53fa0b",
+        "hash": "92ab12a1",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
+      },
+      "187": {
+        "chunkId": "b4626e",
+        "hash": "aab5eeb9",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "b4626e"
+        ]
       }
     }
   }
