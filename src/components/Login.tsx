@@ -1,22 +1,20 @@
 import React, { useState } from "react";
-
 import { useApi } from "container/useApi";
 import { validation } from "../utils/validation";
+import { useMessage } from "container/useMessage";
 import "./Login.css";
 
 export const Login = () => {
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
+  const { showMessage } = useMessage();
 
   const handleSuccess = (message: string) => {
-    alert("Login successful! JWT Token set and it expires in 30 minutes.");
-    setUsername("");
-    setPassword("");
     window.location.href = "http://localhost:3003/verify";
   };
 
   const handleError = (message: string) => {
-    alert(message);
+    showMessage("error", message);
   };
 
   const { callApi, isLoading } = useApi("/login", handleSuccess, handleError, {

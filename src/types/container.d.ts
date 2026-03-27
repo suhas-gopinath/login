@@ -10,9 +10,17 @@ declare module "container/useApi" {
     path: string,
     onSuccess: (message: string) => void,
     onError: (message: string) => void,
-    options?: ApiOptions
+    options?: ApiOptions,
   ): {
     callApi: () => Promise<void>;
     isLoading: boolean;
+  };
+}
+
+declare module "container/useMessage" {
+  export const useMessage: () => {
+    showMessage: (type: "success" | "error", text: string) => void;
+    messages: Array<{ id: number; text: string; type: string }>;
+    clearAllMessages: () => void;
   };
 }

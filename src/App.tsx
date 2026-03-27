@@ -5,7 +5,6 @@ import "./index.css";
 
 const App = () => (
   <div className="container">
-    <div>Login Child App Standalone</div>
     <Login />
   </div>
 );

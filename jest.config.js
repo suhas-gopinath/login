@@ -6,5 +6,6 @@ module.exports = {
   moduleNameMapper: {
     "\\.(css|less|scss|sass)$": "<rootDir>/__mocks__/styleMock.js",
     "^container/useApi$": "<rootDir>/__mocks__/containerUseApiMock.ts",
+    "^container/useMessage$": "<rootDir>/__mocks__/containerUseMessageMock.ts",
   },
 };
