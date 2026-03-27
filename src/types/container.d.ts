@@ -24,3 +24,29 @@ declare module "container/useMessage" {
     clearAllMessages: () => void;
   };
 }
+
+declare module "container/useMessage" {
+  import { ReactNode } from "react";
+
+  type MessageType = "success" | "error";
+
+  interface Message {
+    id: number;
+    text: string;
+    type: MessageType;
+  }
+
+  export function useMessage(): {
+    messages: Message[];
+    showMessage: (type: MessageType, text: string) => void;
+    removeMessage: (id: number) => void;
+    clearAllMessages: () => void;
+  };
+
+  export const MessageProvider: React.FC<{ children: ReactNode }>;
+}
+
+declare module "container/MessageDisplay" {
+  const MessageDisplay: React.FC;
+  export default MessageDisplay;
+}

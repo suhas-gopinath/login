@@ -23,7 +23,6 @@
 }
 
 .login-form:hover {
-
   box-shadow:
     0 10px 15px rgba(0, 0, 0, 0.1),
     0 4px 6px rgba(0, 0, 0, 0.05);
@@ -166,10 +165,6 @@
 
 /* Loading Spinner */
 .loading-spinner {
-
-
-
-
   width: 20px;
   height: 20px;
   border: 3px solid rgba(255, 255, 255, 0.3);
