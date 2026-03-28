@@ -29,6 +29,7 @@ export default function LoginForm() {
   return (
     <div className="login-container">
       <div className="login-form">
+        <h2 className="register-title">Create Account</h2>
         <div className="form-group">
           <label htmlFor="username" className="form-label">
             Username
