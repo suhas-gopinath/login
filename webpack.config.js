@@ -52,7 +52,8 @@ module.exports = {
         container: "container@http://localhost:3003/remoteEntry.js",
       },
       exposes: {
-        "./Login": "./src/components/Login",
+        "./Login": "./src/components/Login/index",
+        "./Register": "./src/components/Register/index",
       },
       shared: {
         react: {

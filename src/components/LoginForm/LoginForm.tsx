@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useApi } from "container/useApi";
-import { validation } from "../utils/validation";
+import { validation } from "../../utils/validation";
 import { useMessage } from "container/useMessage";
-import "./Login.css";
+import "../Login/index";
 
 export default function LoginForm() {
   const [username, setUsername] = useState<string>("");

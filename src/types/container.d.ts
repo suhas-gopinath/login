@@ -50,3 +50,8 @@ declare module "container/MessageDisplay" {
   const MessageDisplay: React.FC;
   export default MessageDisplay;
 }
+
+declare module "*.css" {
+  const content: Record<string, string>;
+  export default content;
+}
