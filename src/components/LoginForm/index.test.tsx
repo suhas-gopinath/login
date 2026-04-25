@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import { render, screen, fireEvent, act } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import LoginForm from "./LoginForm";
+import LoginForm from ".";
 import { validation } from "../../utils/validation";
 import { useApi } from "container/useApi";
 import { useMessage } from "container/useMessage";
