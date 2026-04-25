@@ -17,7 +17,7 @@ export const Login = () => {
   return (
     <Suspense fallback={<div>Loading message provider...</div>}>
       <MessageProvider>
-        <Suspense fallback={<div>Loading display...</div>}>
+        <Suspense fallback={<div>Loading message display...</div>}>
           <MessageDisplay />
         </Suspense>
         <LoginForm />

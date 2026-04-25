@@ -10,7 +10,7 @@ export default function LoginForm() {
   const { showMessage } = useMessage();
 
   const handleSuccess = (message: string) => {
-    window.location.href = "http://localhost:3003/verify";
+    window.location.href = "/verify";
   };
 
   const handleError = (message: string) => {
@@ -29,7 +29,7 @@ export default function LoginForm() {
   return (
     <div className="login-container">
       <div className="login-form">
-        <h2 className="register-title">Create Account</h2>
+        <h2 className="login-title">Login</h2>
         <div className="form-group">
           <label htmlFor="username" className="form-label">
             Username

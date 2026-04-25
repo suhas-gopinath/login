@@ -104,7 +104,7 @@ describe("LoginForm component", () => {
     });
 
     // Verify window.location.href is set to redirect URL
-    expect(window.location.href).toBe("http://localhost:3003/verify");
+    expect(window.location.href).toBe("/verify");
   });
 
   test("handleError callback calls showMessage with error type and message", () => {
