@@ -12,7 +12,7 @@ module.exports = {
   },
 
   devServer: {
-    port: 3000,
+    port: 3001,
     historyApiFallback: true,
   },
 
@@ -49,7 +49,7 @@ module.exports = {
       name: "login",
       filename: "remoteEntry.js",
       remotes: {
-        container: "container@http://localhost:3003/remoteEntry.js",
+        container: "container@http://localhost:3000/remoteEntry.js",
       },
       exposes: {
         "./Login": "./src/components/Login/index",

@@ -4,7 +4,8 @@
     "module": "ESNext",
     "jsx": "react-jsx",
     "strict": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    "ignoreDeprecations": "6.0",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -12,6 +13,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "allowJs": true,
+    "allowArbitraryExtensions": true,
     "types": ["jest", "node", "@testing-library/jest-dom"]
   },
   "include": ["src"]

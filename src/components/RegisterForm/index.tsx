@@ -19,19 +19,19 @@ export const RegisterForm = () => {
   const [disableButton, setDisableButton] = useState<boolean>(false);
   const { showMessage } = useMessage();
 
-  const handleSuccess = (successMessage: string) => {
+  const handleSuccess = (data: any) => {
     setDisableButton(true);
     showMessage(
       "success",
-      `${successMessage}. You will be redirected to login page.`,
+      `${data.message}. You will be redirected to login page.`,
     );
     setTimeout(() => {
       window.location.href = "/login";
     }, 5000);
   };
 
-  const handleError = (errorMessage: string) => {
-    showMessage("error", errorMessage);
+  const handleError = (data: any) => {
+    showMessage("error", data.message || "Registration failed. Please try again.");
   };
 
   const { callApi, isLoading } = useApi(

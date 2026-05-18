@@ -9,12 +9,12 @@ export default function LoginForm() {
   const [password, setPassword] = useState<string>("");
   const { showMessage } = useMessage();
 
-  const handleSuccess = (message: string) => {
+  const handleSuccess = () => {
     window.location.href = "/verify";
   };
 
-  const handleError = (message: string) => {
-    showMessage("error", message);
+  const handleError = (data:any) => {
+    showMessage("error", data.message);
   };
 
   const { callApi, isLoading } = useApi("/login", handleSuccess, handleError, {
